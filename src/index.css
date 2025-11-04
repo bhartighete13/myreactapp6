@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+.myclass{
+  border:2px solid black;
+  background-color: azure;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.booklist{
+  display: flex;
+  gap: 20px;
+}
+.book{
+  background-color: aquamarine;
+  border-radius: 15px;
+}
+.mg{
+  margin-left: 10px;
 }
